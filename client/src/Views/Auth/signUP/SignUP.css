@@ -1,0 +1,54 @@
+.signup-body {
+    width: 100%;
+    height: 100vh;
+    background-color: #111;
+}
+.signup-form {
+   
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.signup-Box {
+    width: 40%;
+    height: 25rem;
+    background-color: #FFF;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.101);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    border-radius: 2px;
+    padding: 1rem;
+}
+.sign-input {
+    width: 100%;
+    outline: unset;
+    border: unset;
+    background-color: unset;
+    padding-left: 8px;
+    border-bottom:solid 1px yellow ;
+}
+
+.sigup-img{
+    width: 100%;
+    height: 100vh;
+    background-color: #111;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    background-size: 100% 100vh;
+    background-image: url("https://img.freepik.com/free-photo/view-photo-frames-home-with-interior-design_23-2149513967.jpg?size=626&ext=jpg&ga=GA1.2.336976123.1684895234&semt=sph");
+}
+.sign-btn{
+    width: 40%;
+    background-color: unset;
+    border: unset;
+    border-radius: 10px;
+    
+}
+.sign-btn:hover{
+    background-color: yellow;
+}
