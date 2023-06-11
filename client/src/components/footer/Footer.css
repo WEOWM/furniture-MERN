@@ -1,0 +1,18 @@
+.footer{
+    background-color: #fff;
+    height: 40vh;
+}
+
+.newsletter-int{
+    background-color: unset;
+    outline: unset;
+    border: unset;
+    border-bottom:solid 1px gray ;
+    width: 100%;
+}
+.footer-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+}

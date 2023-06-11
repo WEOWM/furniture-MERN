@@ -2,6 +2,8 @@ import React from 'react'
 // import { useNavigate } from 'react-router-dom'
 import Banner from '../../components/banner/Banner'
 import Category from '../../components/Cards/category/Category'
+import Discount from '../../components/Cards/discount/Discount'
+import Footer from '../../components/footer/Footer'
 
 const Home = () => {
 
@@ -23,6 +25,15 @@ const Home = () => {
         <h2 className='text-center pt-5'>Shop my Room</h2>
         <Category/>
       </section>
+      <section>
+        <h2  className='text-center pt-5 mt-4'>DISCOUNT</h2>
+        <Discount/>
+      </section>
+    <footer>
+      <hr />
+      <Footer/>
+      <hr />
+    </footer>
     </div>
   )
 }

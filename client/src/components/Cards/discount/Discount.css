@@ -1,0 +1,12 @@
+.dis-text {
+    width: 100%;
+    height: 20rem;
+    background-color: rgba(128, 128, 128, 0.327);
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    justify-content: center;
+}
+.dis-img{
+    height: 10rem;
+}
